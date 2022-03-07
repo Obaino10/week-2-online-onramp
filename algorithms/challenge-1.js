@@ -1,5 +1,5 @@
 function missingNumber(numArr) {
-  let initial = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+  const initial = [0, 0, 0, 0, 0, 0, 0, 0, 0];
   let result = [];
   let length = numArr.length;
   for (let i = 0; i < length; i++) {
